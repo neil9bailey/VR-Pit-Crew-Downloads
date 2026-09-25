@@ -1,0 +1,50 @@
+VR Pit Crew — Free-use licence, preview release 0.3
+Copyright (c) 2026 Neil9Bailey, to the extent rights subsist in the original work.
+
+1. Permission to use
+Neil9Bailey grants you a non-exclusive, worldwide, royalty-free licence to install
+and use the supplied VR Pit Crew executable for lawful personal or business use.
+There is no activation key, subscription or payment requirement for this release.
+You may keep backup copies and share the complete, unmodified official release
+package without charging for the software, retaining this licence and all notices.
+
+2. Ownership and limits
+VR Pit Crew's original source and branding remain reserved to their respective
+rights holders. Source code is not included or licensed for redistribution.
+Except where applicable law gives you rights that cannot be restricted, you may
+not distribute modified versions, sell or sublicense the software, remove ownership
+notices, or represent a third-party build as an official Neil9Bailey release.
+This licence does not grant rights to any third-party trademarks or imply vendor
+endorsement. Meta, Oculus, Assetto Corsa, NVIDIA and other names identify compatible
+products owned by their respective holders.
+
+3. Third-party software
+Bundled components retain their own licences and notices. Those licences govern
+those components and are not restricted by this document. See Third-party notices
+and Third-party licenses. Separately installed vendor software and paid add-ons,
+including Meta software, Content Manager, CSP and Pure, remain subject to their
+own terms. VR Pit Crew does not grant a licence to them.
+
+4. Optional contributions
+A contribution supports development voluntarily. It does not buy a licence,
+additional features, a service-level commitment or a promised future release.
+Do not describe contributions as charitable or tax-deductible unless applicable
+legal requirements are independently satisfied. PayPal handles payment data under
+its own terms. The app does not process or verify payments.
+
+5. Preview status and statutory rights
+This release is experimental. Hardware, drivers and runtime behaviour vary.
+Maintain backups and review changes before applying them. To the extent permitted
+by applicable law, the software is supplied as available without promises of
+fitness, availability or performance. Nothing in this licence excludes or limits
+liability or rights that applicable law does not allow to be excluded or limited,
+including liability for fraud or death or personal injury caused by negligence.
+
+6. Contact
+Publisher identity: Neil9Bailey
+Community: https://discord.gg/8yVKdS2w9
+
+Publisher note: these are working release terms prepared for this project, not
+legal advice. Obtain legal review before a broad public or commercial release,
+including review of the publisher's legal identity and any required disclosures.
+
