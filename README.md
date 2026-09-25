@@ -52,3 +52,6 @@ Contributions are optional and do not buy priority support, a licence upgrade or
 GitHub records downloads for each release asset. The badge above counts the v0.3.1 installer only, excluding the portable ZIP and checksum file. Repeat downloads also count; these are not unique users, installations or usage statistics. See [download statistics](DOWNLOADS.md).
 
 This public repository contains release information and packaged downloads. Application source is maintained privately. Free executable use is covered by [LICENCE.txt](LICENCE.txt); third-party notices are included with the app. This is an independent community tool and is not affiliated with Meta, Kunos, NVIDIA, ASUS or third-party mod authors.
+
+Read [Trust, safety and recovery](TRUST-AND-SAFETY.md) before applying settings.
+
