@@ -8,7 +8,9 @@ A free Windows companion for Assetto Corsa and Quest VR sim racing, by **Neil9Ba
 
 ## Download
 
-**[Download the Windows installer — v0.3.1 preview](https://github.com/neil9bailey/VR-Pit-Crew-Downloads/releases/download/v0.3.1/VR-Pit-Crew-0.3.1-Setup-x64.exe)**
+**Current build: 0.3.2.** The existing shared download URLs are unchanged. Their `v0.3.1` route and filenames are compatibility names; the installer and app display **0.3.2**. Files marked `ORIGINAL` are archived 0.3.1 builds.
+
+**[Download the Windows installer — build 0.3.2 preview](https://github.com/neil9bailey/VR-Pit-Crew-Downloads/releases/download/v0.3.1/VR-Pit-Crew-0.3.1-Setup-x64.exe)**
 
 [Release notes and all downloads](https://github.com/neil9bailey/VR-Pit-Crew-Downloads/releases/tag/v0.3.1) · [Installation guide](INSTALL.md) · [Discord community](https://discord.gg/8yVKdS2w9)
 
@@ -49,7 +51,7 @@ Contributions are optional and do not buy priority support, a licence upgrade or
 
 ## Downloads and licence
 
-GitHub records downloads for each release asset. The badge above counts the v0.3.1 installer only, excluding the portable ZIP and checksum file. Repeat downloads also count; these are not unique users, installations or usage statistics. See [download statistics](DOWNLOADS.md).
+GitHub records downloads for each release asset. The badge above counts the current installer at the preserved shared URL, excluding the portable ZIP and checksum file. Earlier counts remain on the archived ORIGINAL assets. Repeat downloads also count; these are not unique users, installations or usage statistics. See [download statistics](DOWNLOADS.md).
 
 This public repository contains release information and packaged downloads. Application source is maintained privately. Free executable use is covered by [LICENCE.txt](LICENCE.txt); third-party notices are included with the app. This is an independent community tool and is not affiliated with Meta, Kunos, NVIDIA, ASUS or third-party mod authors.
 

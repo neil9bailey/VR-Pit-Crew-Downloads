@@ -1,5 +1,7 @@
 # Install VR Pit Crew
 
+**Current application build: 0.3.2.** The shared release URL and filenames still contain `0.3.1` so existing links keep working. The installer and installed application show 0.3.2. Files marked `ORIGINAL` are archived older builds.
+
 ## Windows installer
 
 1. Download `VR-Pit-Crew-0.3.1-Setup-x64.exe` from the [official release](https://github.com/neil9bailey/VR-Pit-Crew-Downloads/releases/tag/v0.3.1).

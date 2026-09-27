@@ -1,3 +1,5 @@
+> Historical notes for the original 0.3.1 build. The shared download links now deliver 0.3.2; see [current release notes](RELEASE-NOTES-0.3.2.md). Original binaries remain available with ORIGINAL in their filenames.
+
 # VR Pit Crew 0.3.1 — Windows installer preview
 
 The first public installer package for VR Pit Crew, a free Windows companion by Neil9Bailey for Assetto Corsa and Quest VR sim racing.
