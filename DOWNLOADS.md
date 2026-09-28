@@ -1,35 +1,34 @@
 # Download statistics
 
-GitHub records a `download_count` for each release asset. VR Pit Crew does not install download tracking or analytics on users' PCs.
+GitHub records a download_count for each release asset. VR Pit Crew does not install download tracking or analytics on users' PCs.
 
-## Current downloads and existing links
+## Current v0.4.1 release
 
-On 28 September 2026 the existing shared installer and ZIP URLs were updated to **application build 0.4.1**. Their `v0.3.1` route and filenames are retained for link compatibility. The installer and application show version 0.4.1.
+The current public preview is [VR Pit Crew v0.4.1](https://github.com/neil9bailey/VR-Pit-Crew-Downloads/releases/tag/v0.4.1).
 
-The README badge counts the **current installer asset** at that shared URL. The original 0.3.1 assets were renamed with `ORIGINAL`, preserving their asset IDs and recorded counts rather than deleting them. New build assets have their own counters.
+| Asset | GitHub asset ID | SHA-256 | Downloads |
+|---|---:|---|---:|
+| VR-Pit-Crew-0.4.1-Setup-x64.exe | 595637429 | 28d320e75d49e285aad2c7b8736ade935ffec14ddb997096649ccef500aa4ea4 | 0 |
+| VR-Pit-Crew-0.4.1-Windows-x64.zip | 595637020 | dd0e0955b55e5409bcf64ac6091f5bf6dacefb9a92cac1cb01c67acd9a3e9add | 0 |
+| SHA256SUMS-0.4.1.txt | 595637417 | 790f6efbc71fd0be42d75ce845c9f460391739887ece24d7b5d7119eea4bb830 | 0 |
+| VR-Pit-Crew-0.4.1-Windows-x64.sha256 | 595636991 | b02d33cca1046083bfc1cb21b5eff03805b3eefc21008d36e216b2f0b363d2d1 | 0 |
 
-| Asset | GitHub asset ID | Count recorded before replacement |
-|---|---:|---:|
-| Original 0.3.1 installer, now `VR-Pit-Crew-0.3.1-ORIGINAL-Setup-x64.exe` | 588123882 | 1 |
-| Original 0.3.1 ZIP, now `VR-Pit-Crew-0.3.1-ORIGINAL-Windows-x64.zip` | 588124012 | 0 |
-| Original checksum file | 588124200 | 0 |
-| Archived 0.3.2 installer | 592107645 | 5 |
-| Archived 0.3.2 ZIP | 592107748 | 1 |
-| Archived 0.3.2 checksum file | 592107912 | 1 |
+The installer and ZIP hashes above match the built 0.4.1 package. GitHub's automatic Source code archives are not application downloads.
 
-These are historical snapshots, not live totals. Archived assets may still receive later downloads. Archived checksum files are retained unchanged and use the filenames from when they were published. The current `SHA256SUMS.txt` covers only the current installer and ZIP at the original shared filenames.
+## Historical counters
 
-Current 0.4.1 asset IDs: installer `594059263`, ZIP `594059387`, checksums `594059582`. GitHub gives replacements new counters; keeping old assets preserves earlier counts for aggregation.
+Earlier releases and archived assets retain their own counters. These are
+historical snapshots, not live totals; archived assets may still receive later
+downloads. Repeat and verification downloads count, so these are not unique users,
+successful installations, usage or payments.
 
-For total installer downloads across builds, sum installer EXE counts, including archived installers. Count portable ZIP downloads separately and exclude checksum files. Repeat and verification downloads count, so these are not unique users, successful installations, usage or payments. Badges can be cached.
+For total installer downloads across builds, sum installer EXE counts, including
+archived installers. Count portable ZIP downloads separately and exclude checksum
+files. Badges can be cached.
 
-[Live release metadata and asset counts](https://api.github.com/repos/neil9bailey/VR-Pit-Crew-Downloads/releases/tags/v0.3.1)
+[Live v0.4.1 release metadata and asset counts](https://api.github.com/repos/neil9bailey/VR-Pit-Crew-Downloads/releases/tags/v0.4.1)
 
-```powershell
-$releases = Invoke-RestMethod 'https://api.github.com/repos/neil9bailey/VR-Pit-Crew-Downloads/releases?per_page=100'
-$releases | ForEach-Object { $_.assets } | Select-Object name, download_count, browser_download_url
-```
-
-Deleting an asset deletes its associated counter. For future updates, archive the old asset by renaming it, then map the tested replacement to the established download filename and update checksums and release notes. Keep the compatibility purpose explicit; do not change the executable's actual version to match an old filename.
+    $releases = Invoke-RestMethod 'https://api.github.com/repos/neil9bailey/VR-Pit-Crew-Downloads/releases?per_page=100'
+    $releases | ForEach-Object { $_.assets } | Select-Object name, download_count, browser_download_url
 
 Reference: [GitHub release-asset API](https://docs.github.com/en/rest/releases/assets).
