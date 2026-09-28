@@ -4,17 +4,17 @@
 
 A free Windows companion for Assetto Corsa and Quest VR sim racing, by **Neil9Bailey**.
 
-[![Installer downloads](https://img.shields.io/github/downloads/neil9bailey/VR-Pit-Crew-Downloads/v0.3.1/VR-Pit-Crew-0.3.1-Setup-x64.exe?label=installer%20downloads&color=99cc33)](https://github.com/neil9bailey/VR-Pit-Crew-Downloads/releases/tag/v0.3.1)
+[![Installer downloads](https://img.shields.io/github/downloads/neil9bailey/VR-Pit-Crew-Downloads/v0.4.1/VR-Pit-Crew-0.4.1-Setup-x64.exe?label=installer%20downloads&color=99cc33)](https://github.com/neil9bailey/VR-Pit-Crew-Downloads/releases/tag/v0.4.1)
 
 ## Download
 
-**Current build: 0.4.1.** The existing shared download URLs are unchanged. Their `v0.3.1` route and filenames are compatibility names; the installer and app display **0.4.1**. Files marked `ORIGINAL` or `ARCHIVED` are archived older builds.
+**Current build: 0.4.1 preview.**
 
-**[Download the Windows installer — build 0.4.1 preview](https://github.com/neil9bailey/VR-Pit-Crew-Downloads/releases/download/v0.3.1/VR-Pit-Crew-0.3.1-Setup-x64.exe)**
+**[Download the Windows installer — VR Pit Crew 0.4.1](https://github.com/neil9bailey/VR-Pit-Crew-Downloads/releases/download/v0.4.1/VR-Pit-Crew-0.4.1-Setup-x64.exe)**
 
-[Release notes and all downloads](https://github.com/neil9bailey/VR-Pit-Crew-Downloads/releases/tag/v0.3.1) · [Installation guide](INSTALL.md) · [Discord community](https://discord.gg/8yVKdS2w9)
+[Portable ZIP](https://github.com/neil9bailey/VR-Pit-Crew-Downloads/releases/download/v0.4.1/VR-Pit-Crew-0.4.1-Windows-x64.zip) · [SHA256 checksums](https://github.com/neil9bailey/VR-Pit-Crew-Downloads/releases/download/v0.4.1/SHA256SUMS-0.4.1.txt) · [Release notes and assets](https://github.com/neil9bailey/VR-Pit-Crew-Downloads/releases/tag/v0.4.1) · [Installation guide](INSTALL.md) · [Discord community](https://discord.gg/8yVKdS2w9)
 
-Run Setup, then open **VR Pit Crew** from the Start menu. Python is bundled: no coding tools or scripts are needed. Setup checks for Microsoft WebView2 Runtime and .NET Framework 4.8. A portable ZIP is also available under release assets. Choose the Setup EXE or portable ZIP; GitHub's automatic “Source code” archives contain only this download site's documentation.
+Run Setup, then open **VR Pit Crew** from the Start menu. Python is bundled: no coding tools or scripts are needed. Setup checks for Microsoft WebView2 Runtime and .NET Framework 4.8. Choose the Setup EXE or portable ZIP; GitHub's automatic “Source code” archives contain only this download site's documentation.
 
 **Windows 10/11 x64. Unsigned preview.** Windows may display an unknown-publisher or reputation warning. Release assets include SHA256 checksums. Wider hardware testing is still in progress; check the release notes before use.
 
@@ -62,7 +62,7 @@ Contributions are optional and do not buy priority support, a licence upgrade or
 
 ## Downloads and licence
 
-GitHub records downloads for each release asset. The badge above counts the current installer at the preserved shared URL, excluding the portable ZIP and checksum file. Earlier counts remain on the archived ORIGINAL assets. Repeat downloads also count; these are not unique users, installations or usage statistics. See [download statistics](DOWNLOADS.md).
+GitHub records downloads for each release asset. The badge above counts the v0.4.1 installer only, excluding the portable ZIP and checksum files. Repeat downloads also count; these are not unique users, installations or usage statistics. See [download statistics](DOWNLOADS.md).
 
 This public repository contains release information and packaged downloads. Application source is maintained privately. Free executable use is covered by [LICENCE.txt](LICENCE.txt); third-party notices are included with the app. This is an independent community tool and is not affiliated with Meta, Kunos, NVIDIA, ASUS or third-party mod authors.
 
