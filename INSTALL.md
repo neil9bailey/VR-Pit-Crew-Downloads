@@ -1,6 +1,6 @@
 # Install VR Pit Crew
 
-**Current application build: 0.4.1.** The shared release URL and filenames still contain `0.3.1` so existing links keep working. The installer and installed application show 0.4.1. Files marked `ORIGINAL` or `ARCHIVED` are archived older builds.
+**Current application build: 0.4.1.** Use the 0.4.1 files below for new installs. Older builds remain on the v0.3.1 release so links already shared keep working; files marked `ORIGINAL` or `ARCHIVED` are those older builds.
 
 ## Windows installer
 
@@ -43,6 +43,6 @@ Use Windows Installed apps / Apps & features, or **VR Pit Crew → Uninstall** i
 
 ## Preview status and integrity
 
-This release is unsigned, so Windows can show an unknown publisher or reputation warning. No code-signing certificate is bundled. Download only from the official release and compare its SHA256 to `SHA256SUMS.txt` if you want to check file integrity. A matching checksum checks bytes; it is not publisher certification.
+This release is unsigned, so Windows can show an unknown publisher or reputation warning. No code-signing certificate is bundled. Download only from the official release and compare its SHA256 to `SHA256SUMS-0.4.1.txt` if you want to check file integrity. A matching checksum checks bytes; it is not publisher certification.
 
 The package has local tests, but second-PC compatibility and real headset/runtime behaviour still need wider validation. Start with a saved baseline and small, reviewed changes.

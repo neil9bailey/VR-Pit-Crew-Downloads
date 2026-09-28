@@ -1,9 +1,11 @@
-# Oculus Tray Tool replacement: 0.4.1 public preview
+# Quest runtime parity with Oculus Tray Tool: 0.4.1 public preview
 
-The product objective is to replace Oculus Tray Tool, with no installed or running
-OTT dependency. Build 0.3.2 did not meet that objective. Build 0.4.0 moves the active
-workflow to independent Pit Crew profiles and native Windows controls. It is a
-validation candidate, not a claim that every historical OTT feature is complete.
+Pit Crew's independent Quest module covers the Oculus Tray Tool functions sim racers
+relied on, with no installed or running OTT dependency. This matrix tracks which
+functions are implemented and which still need headset validation. Build 0.3.2 still
+depended on OTT; build 0.4.0 moved the active workflow to independent Pit Crew
+profiles and native Windows controls. It is a validation candidate, not a claim that
+every historical OTT feature is complete.
 
 ## Functional coverage
 

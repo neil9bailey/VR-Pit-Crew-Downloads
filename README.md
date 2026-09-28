@@ -18,6 +18,20 @@ Run Setup, then open **VR Pit Crew** from the Start menu. Python is bundled: no 
 
 **Windows 10/11 x64. Unsigned preview.** Windows may display an unknown-publisher or reputation warning. Release assets include SHA256 checksums. Wider hardware testing is still in progress; check the release notes before use.
 
+## Screenshots
+
+![Setup: prerequisite scan with guided setup](docs/screenshots/04-setup-scan.png)
+
+![Tune: review current and new values before applying](docs/screenshots/01-tune-review.png)
+
+![Quest runtime profiles](docs/screenshots/02-quest-profiles.png)
+
+![History with Undo](docs/screenshots/03-history-undo.png)
+
+![Saved rig profiles](docs/screenshots/06-profiles.png)
+
+More in [docs/screenshots](docs/screenshots/).
+
 ## Built for your next session
 
 - Scan prerequisites and follow a guided integration setup.
