@@ -1,18 +1,14 @@
-**Current application build: 0.4.1 — updated 28 September 2026.**
-
-The original Discord/shared links still deliver the current build. The `v0.3.1`
-route and `0.3.1` asset filenames are compatibility names; the installer and app
-display **0.4.1**.
+**Current application build: 0.4.1 — published 28 September 2026.**
 
 ## Download
 
-- [Windows installer — 0.4.1](https://github.com/neil9bailey/VR-Pit-Crew-Downloads/releases/download/v0.3.1/VR-Pit-Crew-0.3.1-Setup-x64.exe)
-- [Portable ZIP — 0.4.1](https://github.com/neil9bailey/VR-Pit-Crew-Downloads/releases/download/v0.3.1/VR-Pit-Crew-0.3.1-Windows-x64.zip)
-- [SHA256 checksums](https://github.com/neil9bailey/VR-Pit-Crew-Downloads/releases/download/v0.3.1/SHA256SUMS.txt)
+- [Windows installer — VR Pit Crew 0.4.1](https://github.com/neil9bailey/VR-Pit-Crew-Downloads/releases/download/v0.4.1/VR-Pit-Crew-0.4.1-Setup-x64.exe)
+- [Portable ZIP — VR Pit Crew 0.4.1](https://github.com/neil9bailey/VR-Pit-Crew-Downloads/releases/download/v0.4.1/VR-Pit-Crew-0.4.1-Windows-x64.zip)
+- [SHA256 checksums](https://github.com/neil9bailey/VR-Pit-Crew-Downloads/releases/download/v0.4.1/SHA256SUMS-0.4.1.txt)
+- [Per-archive checksum file](https://github.com/neil9bailey/VR-Pit-Crew-Downloads/releases/download/v0.4.1/VR-Pit-Crew-0.4.1-Windows-x64.sha256)
+- [Release page](https://github.com/neil9bailey/VR-Pit-Crew-Downloads/releases/tag/v0.4.1)
 
-Choose these links for the current build. Assets marked ORIGINAL or ARCHIVED are
-older builds retained with their download counts. GitHub's automatic Source code
-archives contain public documentation, not application source.
+These are the current versioned assets. GitHub's automatic Source code archives contain public documentation, not application source.
 
 ## Your rig, your profiles
 
