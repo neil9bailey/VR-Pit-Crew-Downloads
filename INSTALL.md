@@ -1,6 +1,6 @@
 # Install VR Pit Crew
 
-**Current application build: 0.3.2.** The shared release URL and filenames still contain `0.3.1` so existing links keep working. The installer and installed application show 0.3.2. Files marked `ORIGINAL` are archived older builds.
+**Current application build: 0.4.1.** The shared release URL and filenames still contain `0.3.1` so existing links keep working. The installer and installed application show 0.4.1. Files marked `ORIGINAL` or `ARCHIVED` are archived older builds.
 
 ## Windows installer
 
@@ -19,6 +19,17 @@ The installer does not install games, paid mods, vendor drivers or Meta software
 ## Portable option
 
 Extract the complete portable ZIP to a writable folder. Run `VR Pit Crew.exe` and keep `_internal` beside it. No separate Python installation is needed.
+
+## Make it your own
+
+A fresh install opens Setup with no developer profiles, settings or recordings.
+Run the prerequisite scan, check detected paths, then save your current setup in
+Tune using a name of your choice. Create Quest profiles separately and verify them
+before enabling automation. Recording only starts on request. No profile is
+automatically imported or applied; startup, voice and hotkeys are opt-in.
+
+Only distribute the official installer or clean ZIP. A used installation folder
+contains local PitCrewData and must not be repackaged for other users.
 
 ## Updates and your settings
 

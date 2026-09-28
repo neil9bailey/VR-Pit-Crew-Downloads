@@ -4,7 +4,7 @@ GitHub records a `download_count` for each release asset. VR Pit Crew does not i
 
 ## Current downloads and existing links
 
-On 27 September 2026 the existing shared installer and ZIP URLs were updated to **application build 0.3.2**. Their `v0.3.1` route and filenames are retained for link compatibility. The installer and application show version 0.3.2.
+On 28 September 2026 the existing shared installer and ZIP URLs were updated to **application build 0.4.1**. Their `v0.3.1` route and filenames are retained for link compatibility. The installer and application show version 0.4.1.
 
 The README badge counts the **current installer asset** at that shared URL. The original 0.3.1 assets were renamed with `ORIGINAL`, preserving their asset IDs and recorded counts rather than deleting them. New build assets have their own counters.
 
@@ -13,8 +13,13 @@ The README badge counts the **current installer asset** at that shared URL. The 
 | Original 0.3.1 installer, now `VR-Pit-Crew-0.3.1-ORIGINAL-Setup-x64.exe` | 588123882 | 1 |
 | Original 0.3.1 ZIP, now `VR-Pit-Crew-0.3.1-ORIGINAL-Windows-x64.zip` | 588124012 | 0 |
 | Original checksum file | 588124200 | 0 |
+| Archived 0.3.2 installer | 592107645 | 5 |
+| Archived 0.3.2 ZIP | 592107748 | 1 |
+| Archived 0.3.2 checksum file | 592107912 | 1 |
 
-These are historical snapshots, not live totals. Original assets may still receive later downloads. The original checksum file is retained unchanged and lists its original filenames; the current `SHA256SUMS.txt` also lists the archived binaries under their new ORIGINAL names.
+These are historical snapshots, not live totals. Archived assets may still receive later downloads. Archived checksum files are retained unchanged and use the filenames from when they were published. The current `SHA256SUMS.txt` covers only the current installer and ZIP at the original shared filenames.
+
+Current 0.4.1 asset IDs: installer `594059263`, ZIP `594059387`, checksums `594059582`. GitHub gives replacements new counters; keeping old assets preserves earlier counts for aggregation.
 
 For total installer downloads across builds, sum installer EXE counts, including archived installers. Count portable ZIP downloads separately and exclude checksum files. Repeat and verification downloads count, so these are not unique users, successful installations, usage or payments. Badges can be cached.
 

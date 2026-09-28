@@ -8,9 +8,9 @@ A free Windows companion for Assetto Corsa and Quest VR sim racing, by **Neil9Ba
 
 ## Download
 
-**Current build: 0.3.2.** The existing shared download URLs are unchanged. Their `v0.3.1` route and filenames are compatibility names; the installer and app display **0.3.2**. Files marked `ORIGINAL` are archived 0.3.1 builds.
+**Current build: 0.4.1.** The existing shared download URLs are unchanged. Their `v0.3.1` route and filenames are compatibility names; the installer and app display **0.4.1**. Files marked `ORIGINAL` or `ARCHIVED` are archived older builds.
 
-**[Download the Windows installer — build 0.3.2 preview](https://github.com/neil9bailey/VR-Pit-Crew-Downloads/releases/download/v0.3.1/VR-Pit-Crew-0.3.1-Setup-x64.exe)**
+**[Download the Windows installer — build 0.4.1 preview](https://github.com/neil9bailey/VR-Pit-Crew-Downloads/releases/download/v0.3.1/VR-Pit-Crew-0.3.1-Setup-x64.exe)**
 
 [Release notes and all downloads](https://github.com/neil9bailey/VR-Pit-Crew-Downloads/releases/tag/v0.3.1) · [Installation guide](INSTALL.md) · [Discord community](https://discord.gg/8yVKdS2w9)
 
@@ -21,13 +21,24 @@ Run Setup, then open **VR Pit Crew** from the Start menu. Python is bundled: no 
 ## Built for your next session
 
 - Scan prerequisites and follow a guided integration setup.
-- Review and apply 101 supported controls for AC graphics, CSP, Quest Link, NVIDIA profiles, Windows power and selected services, plus AC wheel feedback and button bindings.
+- Review and apply supported controls for AC graphics, CSP, Quest Link, NVIDIA profiles, Windows power and selected services, plus AC wheel feedback and button bindings.
 - Save reusable rig profiles, preview changes, keep backups and undo supported applied changes.
-- Manage independent Quest ASW/supersampling profiles, with optional per-game automation.
+- Manage independent Quest runtime/session profiles, optional per-game automation, audio/power recovery and native tray controls.
 - Monitor AC driving telemetry and application frame times, record sessions and export results.
 - Choose your theme, accent colour and layout density.
 
 The current focus is original Assetto Corsa, Quest USB Link and NVIDIA. Some features depend on the installed game, hardware and vendor tools. Headset refresh rate/render resolution, firmware, full wheel calibration and GPU clock/fan curves remain in their vendor applications. Actual Quest runtime changes still need headset HUD validation. Application FPS can represent the desktop mirror; it is not headset FPS. No automatic “more FPS” guarantee is made.
+
+## Clean first installation
+
+No developer profiles, personal settings, recorded sessions, telemetry exports,
+backups or logs are bundled. Profiles and recordings start empty. Setup scans your
+own rig; create and save your own profiles. Quest automation, Windows startup,
+hotkeys and voice are off until enabled. Optional presets only stage suggestions
+for review. Upgrades preserve each existing user's own data.
+
+See [0.4.1 release notes](RELEASE-NOTES-0.4.1.md) and the
+[Quest feature matrix](TRAY-TOOL-PARITY.md).
 
 ## First session
 
@@ -56,4 +67,3 @@ GitHub records downloads for each release asset. The badge above counts the curr
 This public repository contains release information and packaged downloads. Application source is maintained privately. Free executable use is covered by [LICENCE.txt](LICENCE.txt); third-party notices are included with the app. This is an independent community tool and is not affiliated with Meta, Kunos, NVIDIA, ASUS or third-party mod authors.
 
 Read [Trust, safety and recovery](TRUST-AND-SAFETY.md) before applying settings.
-
