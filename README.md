@@ -37,7 +37,7 @@ own rig; create and save your own profiles. Quest automation, Windows startup,
 hotkeys and voice are off until enabled. Optional presets only stage suggestions
 for review. Upgrades preserve each existing user's own data.
 
-See [0.4.1 release notes](RELEASE-NOTES-0.4.1.md) and the
+See [0.4.1 release notes](RELEASE-NOTES-0.4.1.md), [post-ready share links](SHARE-LINKS.md) and the
 [Quest feature matrix](TRAY-TOOL-PARITY.md).
 
 ## First session
