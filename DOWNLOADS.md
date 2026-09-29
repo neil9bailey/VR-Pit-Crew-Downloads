@@ -2,18 +2,20 @@
 
 GitHub records a download_count for each release asset. VR Pit Crew does not install download tracking or analytics on users' PCs.
 
-## Current v0.4.1 release
+## Current v0.4.2 release
 
-The current public preview is [VR Pit Crew v0.4.1](https://github.com/neil9bailey/VR-Pit-Crew-Downloads/releases/tag/v0.4.1).
+The current public preview is [VR Pit Crew v0.4.2](https://github.com/neil9bailey/VR-Pit-Crew-Downloads/releases/tag/v0.4.2).
 
-| Asset | GitHub asset ID | SHA-256 | Downloads |
-|---|---:|---|---:|
-| VR-Pit-Crew-0.4.1-Setup-x64.exe | 595637429 | 28d320e75d49e285aad2c7b8736ade935ffec14ddb997096649ccef500aa4ea4 | 0 |
-| VR-Pit-Crew-0.4.1-Windows-x64.zip | 595637020 | dd0e0955b55e5409bcf64ac6091f5bf6dacefb9a92cac1cb01c67acd9a3e9add | 0 |
-| SHA256SUMS-0.4.1.txt | 595637417 | 790f6efbc71fd0be42d75ce845c9f460391739887ece24d7b5d7119eea4bb830 | 0 |
-| VR-Pit-Crew-0.4.1-Windows-x64.sha256 | 595636991 | b02d33cca1046083bfc1cb21b5eff03805b3eefc21008d36e216b2f0b363d2d1 | 0 |
+| Asset | SHA-256 | Downloads |
+|---|---|---:|
+| VR-Pit-Crew-0.4.2-Setup-x64.exe | 458563759818ed13ed6beba8a87a640fde08aebf812c293fbefa1d6836fe1a67 | 0 |
+| VR-Pit-Crew-0.4.2-Windows-x64.zip | 78bc79d0e18aeae527335805ed5b9d2ef562e288a4c06faedcdbc89a7d387553 | 0 |
+| SHA256SUMS-0.4.2.txt | 565d2d4a88942412ce08e2a41504968fd3e166ce25c68b6188598577ea9863f9 | 0 |
+| VR-Pit-Crew-0.4.2-Windows-x64.sha256 | 14e747fa40f716eb6d98f5d1c4039cabdd0e8898a44fe295b0839feef23c9f84 | 0 |
 
-The installer and ZIP hashes above match the built 0.4.1 package. GitHub's automatic Source code archives are not application downloads.
+The installer and ZIP hashes above match the built 0.4.2 package. GitHub's automatic Source code archives are not application downloads.
+
+[Live v0.4.2 release metadata and asset counts](https://api.github.com/repos/neil9bailey/VR-Pit-Crew-Downloads/releases/tags/v0.4.2)
 
 ## Historical counters
 
