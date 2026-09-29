@@ -1,4 +1,4 @@
-# Quest runtime parity with Oculus Tray Tool: 0.4.1 public preview
+# Quest runtime parity with Oculus Tray Tool: 0.4.2 public preview
 
 Pit Crew's independent Quest module covers the Oculus Tray Tool functions sim racers
 relied on, with no installed or running OTT dependency. This matrix tracks which
@@ -13,14 +13,14 @@ every historical OTT feature is complete.
 | --- | --- | --- |
 | ASW and supersampling | Quest profiles and Meta's installed CLI | Validation/command tests; headset behaviour still needs testing |
 | Global/default profile | Explicit idle profile; optional application on startup | Transition tests; live Meta startup test pending |
-| Per-game profiles | Create, edit, archive, enable/disable, JSON import/export; executable matching including custom games | Source tests and browser save/review test |
+| Per-game profiles | Create, edit, archive, enable/disable, JSON import/export; executable matching including custom games | Source tests; save, review and archive checked through the UI, not by an automated browser test |
 | FOV horizontal/vertical | Independent paired multipliers | Command tests; reconnect Link and verify the visible crop |
 | Adaptive GPU scaling | Independent runtime setting | Command validation; headset test pending |
 | Mipmap generation and bias | Independent runtime settings | Command validation; installed runtime acceptance pending |
 | Game and OVR/Dash priorities | Windows process API with identity checks and saved original priority | Own-process change/restore verified; game/runtime processes pending |
-| ASW and priority delays | Separate bounded timers; cancellation on game exit | Simulated process/time transition tests |
+| ASW and priority delays | Separate bounded timers; cancellation on game exit | Simulated process/time transition tests. 0.4.2 fixed repeated re-detection while a sim is still starting, and an ASW-only profile with a delay no longer stalls automation |
 | Performance HUD | Performance, timing, compositor, ASW, version and off commands | Command tests; visual headset check pending |
-| Mirror controls | Minimise game window or launch installed OculusMirror; stop only the mirror Pit Crew launched | Desktop session validation pending |
+| Mirror controls | Minimise game window or launch installed OculusMirror; stop only the mirror Pit Crew launched | Desktop session validation pending. 0.4.2 retries the minimise until the game window exists, instead of one silent attempt |
 | Quest Link bitrate, encode width, codec | Existing registry backend with before/after snapshots and Undo | Existing transaction tests; encoder effects require Link test |
 | Link sharpening, distortion curvature, dynamic bitrate maximum | Added to normal tuning; defaults remove the corresponding override where appropriate | Registry transaction tests; inspect ODT and headset after apply |
 | Playback/microphone switching | Windows endpoints; all console, multimedia and communications roles | Actual endpoint enumeration and same-value writes verified; session switching test pending |
