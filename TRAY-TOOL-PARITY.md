@@ -1,4 +1,4 @@
-# Quest runtime parity with Oculus Tray Tool: 0.4.3 public preview
+# Quest runtime parity with Oculus Tray Tool: 0.4.4 public preview
 
 Pit Crew's independent Quest module covers the Oculus Tray Tool functions sim racers
 relied on, with no installed or running OTT dependency. This matrix tracks which
