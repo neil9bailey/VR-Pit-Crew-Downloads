@@ -1,10 +1,10 @@
 # Install VR Pit Crew
 
-**Current application build: 0.4.2.** Use the 0.4.2 files below for new installs. Older builds remain on the v0.3.1 release so links already shared keep working; files marked `ORIGINAL` or `ARCHIVED` are those older builds.
+**Current application build: 0.4.3.** Use the 0.4.3 files below for new installs. Older builds remain on the v0.3.1 release so links already shared keep working; files marked `ORIGINAL` or `ARCHIVED` are those older builds.
 
 ## Windows installer
 
-1. Download `VR-Pit-Crew-0.4.2-Setup-x64.exe` from the [official release](https://github.com/neil9bailey/VR-Pit-Crew-Downloads/releases/tag/v0.4.2).
+1. Download `VR-Pit-Crew-0.4.3-Setup-x64.exe` from the [official release](https://github.com/neil9bailey/VR-Pit-Crew-Downloads/releases/tag/v0.4.3).
 2. Close VR Pit Crew if it is running. Run Setup, review the licence and choose whether to add a desktop shortcut.
 3. Keep the default installation folder unless you need a different writable location. Setup installs for your Windows account without requiring administrator access.
 4. Launch **VR Pit Crew** from the Start menu and open **Setup** for the prerequisite scan.
@@ -33,7 +33,7 @@ contains local PitCrewData and must not be repackaged for other users.
 
 ## Updates and your settings
 
-Close the app and run the new installer into the same folder. Profiles, backups, preferences and recordings are kept in `PitCrewData` beside the EXE. Back up that folder before moving installations. If migrating from a portable copy, close both copies and copy your existing `PitCrewData` into the new installation folder before starting it.
+From 0.4.3 the app can tell you when a newer release exists: Preferences → Updates checks GitHub once a day (or when you choose **Check now**) and the sidebar shows a link to the release page. Nothing is downloaded or installed for you, and the check can be switched off. To update, close the app and run the new installer into the same folder. Profiles, backups, preferences and recordings are kept in `PitCrewData` beside the EXE. Back up that folder before moving installations. If migrating from a portable copy, close both copies and copy your existing `PitCrewData` into the new installation folder before starting it.
 
 The installer checks that the target EXE can be replaced. If it asks you to close the app, do so and rerun Setup. Do not install into a protected system folder; the app needs to write its data beside the EXE.
 
@@ -43,6 +43,6 @@ Use Windows Installed apps / Apps & features, or **VR Pit Crew → Uninstall** i
 
 ## Preview status and integrity
 
-This release is unsigned, so Windows can show an unknown publisher or reputation warning. No code-signing certificate is bundled. Download only from the official release and compare its SHA256 to `SHA256SUMS-0.4.2.txt` if you want to check file integrity. A matching checksum checks bytes; it is not publisher certification.
+This release is unsigned, so Windows can show an unknown publisher or reputation warning. No code-signing certificate is bundled. Download only from the official release and compare its SHA256 to `SHA256SUMS-0.4.3.txt` if you want to check file integrity. A matching checksum checks bytes; it is not publisher certification.
 
 The package has local tests, but second-PC compatibility and real headset/runtime behaviour still need wider validation. Start with a saved baseline and small, reviewed changes.

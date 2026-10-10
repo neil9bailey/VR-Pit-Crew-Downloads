@@ -4,15 +4,15 @@
 
 A free Windows companion for Assetto Corsa and Quest VR sim racing, by **Neil9Bailey**.
 
-[![Installer downloads](https://img.shields.io/github/downloads/neil9bailey/VR-Pit-Crew-Downloads/v0.4.2/VR-Pit-Crew-0.4.2-Setup-x64.exe?label=installer%20downloads&color=99cc33)](https://github.com/neil9bailey/VR-Pit-Crew-Downloads/releases/tag/v0.4.2)
+[![Installer downloads](https://img.shields.io/github/downloads/neil9bailey/VR-Pit-Crew-Downloads/v0.4.3/VR-Pit-Crew-0.4.3-Setup-x64.exe?label=installer%20downloads&color=99cc33)](https://github.com/neil9bailey/VR-Pit-Crew-Downloads/releases/tag/v0.4.3)
 
 ## Download
 
-**Current build: 0.4.2 preview.**
+**Current build: 0.4.3 preview.**
 
-**[Download the Windows installer — VR Pit Crew 0.4.2](https://github.com/neil9bailey/VR-Pit-Crew-Downloads/releases/download/v0.4.2/VR-Pit-Crew-0.4.2-Setup-x64.exe)**
+**[Download the Windows installer — VR Pit Crew 0.4.3](https://github.com/neil9bailey/VR-Pit-Crew-Downloads/releases/download/v0.4.3/VR-Pit-Crew-0.4.3-Setup-x64.exe)**
 
-[Portable ZIP](https://github.com/neil9bailey/VR-Pit-Crew-Downloads/releases/download/v0.4.2/VR-Pit-Crew-0.4.2-Windows-x64.zip) · [SHA256 checksums](https://github.com/neil9bailey/VR-Pit-Crew-Downloads/releases/download/v0.4.2/SHA256SUMS-0.4.2.txt) · [Release notes and assets](https://github.com/neil9bailey/VR-Pit-Crew-Downloads/releases/tag/v0.4.2) · [Installation guide](INSTALL.md) · [Discord community](https://discord.gg/8yVKdS2w9)
+[Portable ZIP](https://github.com/neil9bailey/VR-Pit-Crew-Downloads/releases/download/v0.4.3/VR-Pit-Crew-0.4.3-Windows-x64.zip) · [SHA256 checksums](https://github.com/neil9bailey/VR-Pit-Crew-Downloads/releases/download/v0.4.3/SHA256SUMS-0.4.3.txt) · [Release notes and assets](https://github.com/neil9bailey/VR-Pit-Crew-Downloads/releases/tag/v0.4.3) · [Installation guide](INSTALL.md) · [Discord community](https://discord.gg/8yVKdS2w9)
 
 Run Setup, then open **VR Pit Crew** from the Start menu. Python is bundled: no coding tools or scripts are needed. Setup checks for Microsoft WebView2 Runtime and .NET Framework 4.8. Choose the Setup EXE or portable ZIP; GitHub's automatic “Source code” archives contain only this download site's documentation.
 
@@ -35,11 +35,11 @@ More in [docs/screenshots](docs/screenshots/).
 ## Built for your next session
 
 - Scan prerequisites and follow a guided integration setup.
-- Review and apply supported controls for AC graphics, CSP, Quest Link, NVIDIA profiles, Windows power and selected services, plus AC wheel feedback and button bindings.
+- Review and apply supported controls for AC graphics, CSP, Meta Link (Quest, Rift S and other headsets on the Meta runtime), NVIDIA profiles, Windows power and selected services, plus AC wheel feedback and button bindings. A Rig health card points out settings that commonly cause stutter or dropouts.
 - Save reusable rig profiles, preview changes, keep backups and undo supported applied changes.
-- Manage independent Quest runtime/session profiles, optional per-game automation, audio/power recovery and native tray controls.
-- Monitor AC driving telemetry and application frame times, record sessions and export results.
-- Choose your theme, accent colour and layout density.
+- Manage independent Quest runtime/session profiles, optional per-game automation, audio/power recovery and native tray controls. After each runtime send the headset performance HUD is shown briefly so you can confirm what Meta's tool cannot report.
+- Monitor AC driving telemetry and application frame times, record sessions, run benchmark presets that start on their own once the sim is live, and export results.
+- Choose your theme, accent colour and layout density, and optionally let the app check once a day whether a newer release exists (it never downloads or installs anything itself).
 
 The current focus is original Assetto Corsa, Quest USB Link and NVIDIA. Some features depend on the installed game, hardware and vendor tools. Headset refresh rate/render resolution, firmware, full wheel calibration and GPU clock/fan curves remain in their vendor applications. Actual Quest runtime changes still need headset HUD validation. Application FPS can represent the desktop mirror; it is not headset FPS. No automatic “more FPS” guarantee is made.
 
@@ -51,7 +51,7 @@ own rig; create and save your own profiles. Quest automation, Windows startup,
 hotkeys and voice are off until enabled. Optional presets only stage suggestions
 for review. Upgrades preserve each existing user's own data.
 
-See [0.4.2 release notes](RELEASE-NOTES-0.4.2.md), [post-ready share links](SHARE-LINKS.md) and the
+See [0.4.3 release notes](RELEASE-NOTES-0.4.3.md), [post-ready share links](SHARE-LINKS.md) and the
 [Quest feature matrix](TRAY-TOOL-PARITY.md).
 
 ## First session
@@ -76,7 +76,7 @@ Contributions are optional and do not buy priority support, a licence upgrade or
 
 ## Downloads and licence
 
-GitHub records downloads for each release asset. The badge above counts the v0.4.2 installer only, excluding the portable ZIP and checksum files. Repeat downloads also count; these are not unique users, installations or usage statistics. See [download statistics](DOWNLOADS.md).
+GitHub records downloads for each release asset. The badge above counts the v0.4.3 installer only, excluding the portable ZIP and checksum files. Repeat downloads also count; these are not unique users, installations or usage statistics. See [download statistics](DOWNLOADS.md).
 
 This public repository contains release information and packaged downloads. Application source is maintained privately. Free executable use is covered by [LICENCE.txt](LICENCE.txt); third-party notices are included with the app. This is an independent community tool and is not affiliated with Meta, Kunos, NVIDIA, ASUS or third-party mod authors.
 

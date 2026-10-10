@@ -1,4 +1,4 @@
-# Quest runtime parity with Oculus Tray Tool: 0.4.2 public preview
+# Quest runtime parity with Oculus Tray Tool: 0.4.3 public preview
 
 Pit Crew's independent Quest module covers the Oculus Tray Tool functions sim racers
 relied on, with no installed or running OTT dependency. This matrix tracks which
@@ -49,7 +49,7 @@ These are explicitly incomplete, not silently substituted:
 - Custom voice phrases, push-to-talk bindings and spoken profile confirmations.
 - Oculus-client hide/restore behaviour and automatic service lifecycle preferences.
 - USB hub / legacy Rift sensor device power controls beyond the existing power-plan setting.
-- Automatic app update checking. Existing users still download and reinstall.
+- Automatic app updating. Preferences can now ask GitHub once a day whether a newer release exists and open its page, but installing it is still a manual download and reinstall.
 - Individual HUD panels and ASW modes beyond the options exposed in the candidate.
 
 Historical OTT features also require a separate compatibility decision: replacing

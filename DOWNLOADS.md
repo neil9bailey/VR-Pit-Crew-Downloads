@@ -2,20 +2,20 @@
 
 GitHub records a download_count for each release asset. VR Pit Crew does not install download tracking or analytics on users' PCs.
 
-## Current v0.4.2 release
+## Current v0.4.3 release
 
-The current public preview is [VR Pit Crew v0.4.2](https://github.com/neil9bailey/VR-Pit-Crew-Downloads/releases/tag/v0.4.2).
+The current public preview is [VR Pit Crew v0.4.3](https://github.com/neil9bailey/VR-Pit-Crew-Downloads/releases/tag/v0.4.3).
 
 | Asset | SHA-256 | Downloads |
 |---|---|---:|
-| VR-Pit-Crew-0.4.2-Setup-x64.exe | 458563759818ed13ed6beba8a87a640fde08aebf812c293fbefa1d6836fe1a67 | 0 |
-| VR-Pit-Crew-0.4.2-Windows-x64.zip | 78bc79d0e18aeae527335805ed5b9d2ef562e288a4c06faedcdbc89a7d387553 | 0 |
-| SHA256SUMS-0.4.2.txt | 565d2d4a88942412ce08e2a41504968fd3e166ce25c68b6188598577ea9863f9 | 0 |
-| VR-Pit-Crew-0.4.2-Windows-x64.sha256 | 14e747fa40f716eb6d98f5d1c4039cabdd0e8898a44fe295b0839feef23c9f84 | 0 |
+| VR-Pit-Crew-0.4.3-Setup-x64.exe | f50b5ada7c4d4276dbed6d09de7a03430d02407f87729f091b093a801ae0c41d | 0 |
+| VR-Pit-Crew-0.4.3-Windows-x64.zip | e4fa12f3c3735c8a6409f508d704acd3152519c078207ef4af14d3f4ff967492 | 0 |
+| SHA256SUMS-0.4.3.txt | c72607d6f79dc64177390d107f3c15ae421482fdc92ebc237e2c4cd456fad8b8 | 0 |
+| VR-Pit-Crew-0.4.3-Windows-x64.sha256 | 6c1d3f310e1b5de4f33ef50652594e197f60dfc14e84bec56843ea7ca315664d | 0 |
 
-The installer and ZIP hashes above match the built 0.4.2 package. GitHub's automatic Source code archives are not application downloads.
+The installer and ZIP hashes above match the built 0.4.3 package. GitHub's automatic Source code archives are not application downloads.
 
-[Live v0.4.2 release metadata and asset counts](https://api.github.com/repos/neil9bailey/VR-Pit-Crew-Downloads/releases/tags/v0.4.2)
+[Live v0.4.3 release metadata and asset counts](https://api.github.com/repos/neil9bailey/VR-Pit-Crew-Downloads/releases/tags/v0.4.3)
 
 ## Historical counters
 
@@ -28,6 +28,7 @@ For total installer downloads across builds, sum installer EXE counts, including
 archived installers. Count portable ZIP downloads separately and exclude checksum
 files. Badges can be cached.
 
+[Live v0.4.2 release metadata and asset counts](https://api.github.com/repos/neil9bailey/VR-Pit-Crew-Downloads/releases/tags/v0.4.2) ·
 [Live v0.4.1 release metadata and asset counts](https://api.github.com/repos/neil9bailey/VR-Pit-Crew-Downloads/releases/tags/v0.4.1)
 
     $releases = Invoke-RestMethod 'https://api.github.com/repos/neil9bailey/VR-Pit-Crew-Downloads/releases?per_page=100'
