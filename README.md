@@ -4,15 +4,15 @@
 
 A free Windows companion for Assetto Corsa and Quest VR sim racing, by **Neil9Bailey**.
 
-[![Installer downloads](https://img.shields.io/github/downloads/neil9bailey/VR-Pit-Crew-Downloads/v0.4.4/VR-Pit-Crew-0.4.4-Setup-x64.exe?label=installer%20downloads&color=99cc33)](https://github.com/neil9bailey/VR-Pit-Crew-Downloads/releases/tag/v0.4.4)
+[![Installer downloads](https://img.shields.io/github/downloads/neil9bailey/VR-Pit-Crew-Downloads/v0.4.5/VR-Pit-Crew-0.4.5-Setup-x64.exe?label=installer%20downloads&color=99cc33)](https://github.com/neil9bailey/VR-Pit-Crew-Downloads/releases/tag/v0.4.5)
 
 ## Download
 
-**Current build: 0.4.4 preview.**
+**Current build: 0.4.5 preview.**
 
-**[Download the Windows installer — VR Pit Crew 0.4.4](https://github.com/neil9bailey/VR-Pit-Crew-Downloads/releases/download/v0.4.4/VR-Pit-Crew-0.4.4-Setup-x64.exe)**
+**[Download the Windows installer — VR Pit Crew 0.4.5](https://github.com/neil9bailey/VR-Pit-Crew-Downloads/releases/download/v0.4.5/VR-Pit-Crew-0.4.5-Setup-x64.exe)**
 
-[Portable ZIP](https://github.com/neil9bailey/VR-Pit-Crew-Downloads/releases/download/v0.4.4/VR-Pit-Crew-0.4.4-Windows-x64.zip) · [SHA256 checksums](https://github.com/neil9bailey/VR-Pit-Crew-Downloads/releases/download/v0.4.4/SHA256SUMS-0.4.4.txt) · [Release notes and assets](https://github.com/neil9bailey/VR-Pit-Crew-Downloads/releases/tag/v0.4.4) · [Installation guide](INSTALL.md) · [Discord community](https://discord.gg/8yVKdS2w9)
+[Portable ZIP](https://github.com/neil9bailey/VR-Pit-Crew-Downloads/releases/download/v0.4.5/VR-Pit-Crew-0.4.5-Windows-x64.zip) · [SHA256 checksums](https://github.com/neil9bailey/VR-Pit-Crew-Downloads/releases/download/v0.4.5/SHA256SUMS-0.4.5.txt) · [Release notes and assets](https://github.com/neil9bailey/VR-Pit-Crew-Downloads/releases/tag/v0.4.5) · [Installation guide](INSTALL.md) · [Discord community](https://discord.gg/8yVKdS2w9)
 
 Run Setup, then open **VR Pit Crew** from the Start menu. Python is bundled: no coding tools or scripts are needed. Setup checks for Microsoft WebView2 Runtime and .NET Framework 4.8. Choose the Setup EXE or portable ZIP; GitHub's automatic “Source code” archives contain only this download site's documentation.
 
@@ -51,7 +51,7 @@ own rig; create and save your own profiles. Quest automation, Windows startup,
 hotkeys and voice are off until enabled. Optional presets only stage suggestions
 for review. Upgrades preserve each existing user's own data.
 
-See [what is new since the first preview](WHATS-NEW.md), the [0.4.4 release notes](RELEASE-NOTES-0.4.4.md),
+See [what is new since the first preview](WHATS-NEW.md), the [0.4.5 release notes](RELEASE-NOTES-0.4.5.md),
 [post-ready share links](SHARE-LINKS.md) and the [Quest feature matrix](TRAY-TOOL-PARITY.md).
 
 ## First session
@@ -76,7 +76,7 @@ Contributions are optional and do not buy priority support, a licence upgrade or
 
 ## Downloads and licence
 
-GitHub records downloads for each release asset. The badge above counts the v0.4.4 installer only, excluding the portable ZIP and checksum files. Repeat downloads also count; these are not unique users, installations or usage statistics. See [download statistics](DOWNLOADS.md).
+GitHub records downloads for each release asset. The badge above counts the v0.4.5 installer only, excluding the portable ZIP and checksum files. Repeat downloads also count; these are not unique users, installations or usage statistics. See [download statistics](DOWNLOADS.md).
 
 This public repository contains release information and packaged downloads. Application source is maintained privately. Free executable use is covered by [LICENCE.txt](LICENCE.txt); third-party notices are included with the app. This is an independent community tool and is not affiliated with Meta, Kunos, NVIDIA, ASUS or third-party mod authors.
 

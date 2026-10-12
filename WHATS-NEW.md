@@ -1,10 +1,10 @@
-# What's new in VR Pit Crew — 0.3.1 to 0.4.4
+# What's new in VR Pit Crew — 0.3.1 to 0.4.5
 
-*Last updated 10 October 2026 for build 0.4.4.* The download links shared with the
+*Last updated 12 October 2026 for build 0.4.5.* The download links shared with the
 first preview still deliver the current version. To update, close the app and run
 the new installer over the old folder; profiles, backups and recordings stay.
 
-**Download:** https://github.com/neil9bailey/VR-Pit-Crew-Downloads/releases/tag/v0.4.4
+**Download:** https://github.com/neil9bailey/VR-Pit-Crew-Downloads/releases/tag/v0.4.5
 (installer or portable ZIP, SHA-256 checksums included).
 
 ## What the first preview (0.3.1) could do
@@ -96,9 +96,16 @@ the new installer over the old folder; profiles, backups and recordings stay.
   *Performance Log Users* group). 0.4.4 says so up front and explains the fix
   instead of failing when you press record.
 
+### Stability (0.4.5)
+
+- Fixed a slow memory leak that could make Pit Crew stop responding after a long time
+  running with Quest automation on: the running-programs check created data on every
+  call that was never released. Memory and responsiveness now stay flat. Recommended
+  for everyone.
+
 ## Numbers, for what they are worth
 
-- Automated tests: 50 at 0.3.2, 197 at 0.4.4, plus an isolated installer test
+- Automated tests: 50 at 0.3.2, 201 at 0.4.5, plus an isolated installer test
   (fresh install, upgrade, uninstall, data preserved) and a real session on the
   maintainer's rig before each release.
 - Still an **unsigned preview** (SmartScreen may warn; checksums are published),
@@ -109,7 +116,8 @@ the new installer over the old folder; profiles, backups and recordings stay.
 
 ## Links
 
-- [Release notes for 0.4.4](RELEASE-NOTES-0.4.4.md) · earlier notes:
+- [Release notes for 0.4.5](RELEASE-NOTES-0.4.5.md) · earlier notes:
+  [0.4.4](RELEASE-NOTES-0.4.4.md),
   [0.4.3](RELEASE-NOTES-0.4.3.md), [0.4.2](RELEASE-NOTES-0.4.2.md),
   [0.4.1](RELEASE-NOTES-0.4.1.md), [0.3.2](RELEASE-NOTES-0.3.2.md),
   [0.3.1](RELEASE-NOTES-0.3.1.md)
